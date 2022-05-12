@@ -10,7 +10,7 @@ class Posts extends BaseController
     }
 
     public function view($page = 'home')
-{
+	{
     if (! is_file(APPPATH . 'Views/posts/' . $page . '.php')) {
         // Whoops, we don't have a page for that!
         throw new \CodeIgniter\Exceptions\PageNotFoundException($page);
@@ -21,5 +21,5 @@ class Posts extends BaseController
     echo view('templates/header', $data);
     echo view('posts/' . $page, $data);
     echo view('templates/footer', $data);
-}
+	}
 }
