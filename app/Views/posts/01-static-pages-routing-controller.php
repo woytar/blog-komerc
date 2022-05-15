@@ -1,5 +1,5 @@
-Przykłady kodu </br>
-___________________________________</br>
+<h1><?= esc($title) ?></h1>
+
 <b>Wyświetlenie strony home</b></br>
 
 
@@ -31,7 +31,7 @@ ___________________________________</br>
 	/posts/view/home.php</br>
 
 	<a class="w3-text-blue" href="/posts/view/01-static-pages-routing-controller">Strony statyczne, routing i kontroler</a> </br>
-	<a class="w3-text-blue" href="/posts/view/...">...</a> </br>
+	<a class="w3-text-blue" href="/posts/view/02-styles">Arkusze stylów</a> </br>
 
 	....
 </textarea>
@@ -42,25 +42,25 @@ ___________________________________</br>
 
 
 
-<i>Plik app\Views\templates\header.php</i></br>
+<i>app\Views\templates\header.php</i></br>
 
-<textarea name="templateHeader" rows="10" cols="50" style="font-family:'Courier New';font-size:15px;color:blue"
+<textarea name="templateHeader" rows="10" cols="100" style="font-family:'Courier New';font-size:15px;color:blue"
 
 
 <!doctype html>
 <html>
 <head>
-    <title>CodeIgniter Tutorial</title>
+    <title>Blog programistyczny, tutorial PHP CodeIgniter 4 </title>
 </head>
 <body>
-    <h1><?= esc($title) ?></h1>
+    
 </textarea>
 </br>
 </br>
 
 <i>Plik app\Views\templates\footer.php</i></br>
 
-<textarea name="templateFooter" rows="10" cols="50" style="font-family:'Courier New';font-size:15px;color:blue"
+<textarea name="templateFooter" rows="10" cols="100" style="font-family:'Courier New';font-size:15px;color:blue"
 </br>
     <em>&copy; 2021</em>
 </body>
@@ -70,8 +70,8 @@ ___________________________________</br>
 </br>
 
 
-<i>wprowadzamy routing, wyświetlanie zawartości home w domenie głównej</i>
-<i>Plik app\Config\Routes.php</i></br>
+<i>Routing</i>
+<i>app\Config\Routes.php</i></br>
 <pre style="font-family:'Courier New';font-size:15px;color:blue">
 	$routes->get('/', 'Posts::view');</br>
 </pre>

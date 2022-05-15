@@ -22,4 +22,22 @@ class Posts extends BaseController
     echo view('posts/' . $page, $data);
     echo view('templates/footer', $data);
 	}
+	
+	public function viewfiles() {
+		helper('filesystem');
+		helper('auth');
+		$arr = directory_map('uploads');
+		$title = "Lista załadowanych plików";
+		
+		$data = [
+			'arr'  => $arr,
+			'title' => $title,
+			'srodowisko' => getenv('CI_ENVIRONMENT'),
+			'any_key' => getenv('ANY_SECRET_KEY'),
+		];
+		
+		echo view('templates/header');
+		echo view('posts/031-read', $data);
+		echo view('templates/footer');
+	}
 }
