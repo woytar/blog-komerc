@@ -3,8 +3,8 @@
 <b>Czytanie zmiennych z pliku</b></br>
 
 Funkcjonalności:</br>
-<a class="w3-text-blue" href ="<?= base_url(); ?>/posts/view/03-jpg-files/read">Pokaż pliki</a></br>
-<a class="w3-text-blue" href ="<?= base_url(); ?>/posts/view/03-jpg-files/upload">Załaduj plik</a></br>
+<a class="w3-text-blue" href ="<?= base_url(); ?>/posts/read">Pokaż załadowane JPGi</a></br>
+
 
 
 <i>Routing</i>
@@ -30,16 +30,7 @@ Funkcjonalności:</br>
 	}
 	
 	public function uploadfile() {
-		helper('filesystem');
-		$arr = directory_map('uploads');
-		$pagetitle = "Lista załadowanych plików";
-		$data = [
-			'arr'  => $arr,
-			'pagetitle' => $pagetitle,
-		];
-		echo view('templates/header');
-		echo view('posts/032-upload', $data);
-		echo view('templates/footer');
+		....
 	}
 	
 	

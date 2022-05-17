@@ -32,7 +32,8 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 $routes->get('/', 'Posts::view');
-$routes->get('/posts/view/03-jpg-files/read', 'Posts::viewfiles');
+$routes->get('/posts/read', 'Posts::viewfiles');
+$routes->get('/posts/readenv', 'Posts::readenvvar');
 
 /*
  * --------------------------------------------------------------------

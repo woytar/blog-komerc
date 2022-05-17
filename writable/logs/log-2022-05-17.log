@@ -1,0 +1,8 @@
+CRITICAL - 2022-05-17 06:07:13 --> Undefined variable: data
+#0 C:\Users\Maciek\Desktop\corsup\CI4\blog-komerc\app\Controllers\Posts.php(47): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Maciek\Desktop\corsup\CI4\blog-komerc\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Posts->readEnvVar()
+#2 C:\Users\Maciek\Desktop\corsup\CI4\blog-komerc\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Maciek\Desktop\corsup\CI4\blog-komerc\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Maciek\Desktop\corsup\CI4\blog-komerc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Maciek\Desktop\corsup\CI4\blog-komerc\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Maciek...')
+#6 {main}

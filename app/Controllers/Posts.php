@@ -15,7 +15,7 @@ class Posts extends BaseController
         // Whoops, we don't have a page for that!
         throw new \CodeIgniter\Exceptions\PageNotFoundException($page);
     }
-
+	//<h1>Blog programistyczny, zastosowanie PHP / CodeIgniter4</h1>
     $data['title'] = ucfirst($page); // Capitalize the first letter
 
     echo view('templates/header', $data);
@@ -32,12 +32,25 @@ class Posts extends BaseController
 		$data = [
 			'arr'  => $arr,
 			'title' => $title,
+
+		];
+		
+		echo view('templates/header');
+		echo view('posts/031-read', $data);
+		echo view('templates/footer');
+	}
+	
+		public function readEnvVar() {
+		$title = "Zmienne odczytane z .env";
+		$data = [
+
+			'title' => $title,
 			'srodowisko' => getenv('CI_ENVIRONMENT'),
 			'any_key' => getenv('ANY_SECRET_KEY'),
 		];
 		
 		echo view('templates/header');
-		echo view('posts/031-read', $data);
+		echo view('posts/041-read-from-env', $data);
 		echo view('templates/footer');
 	}
 }
