@@ -34,6 +34,7 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Posts::view');
 $routes->get('/posts/read', 'Posts::viewfiles');
 $routes->get('/posts/readenv', 'Posts::readenvvar');
+$routes->get('/posts/readtxt', 'Posts::readtxt');
 
 /*
  * --------------------------------------------------------------------

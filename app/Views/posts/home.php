@@ -1,6 +1,6 @@
 <h1><?= esc($title) ?></h1>
 
-
+<a class="w3-text-green" href ="https://www.w3schools.com/php/default.asp">Samouczek: https://www.w3schools.com/php/default.asp</a></br></br>
 
 
 

@@ -1,0 +1,72 @@
+CRITICAL - 2022-05-25 16:10:17 --> Undefined variable: data
+#0 C:\Users\Maciek\Desktop\corsup\CI4\blog-komerc\app\Controllers\Posts.php(59): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Maciek\Desktop\corsup\CI4\blog-komerc\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Posts->readtxt()
+#2 C:\Users\Maciek\Desktop\corsup\CI4\blog-komerc\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Maciek\Desktop\corsup\CI4\blog-komerc\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Maciek\Desktop\corsup\CI4\blog-komerc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Maciek\Desktop\corsup\CI4\blog-komerc\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Maciek...')
+#6 {main}
+CRITICAL - 2022-05-25 16:11:00 --> Undefined variable: data
+#0 C:\Users\Maciek\Desktop\corsup\CI4\blog-komerc\app\Controllers\Posts.php(59): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Maciek\Desktop\corsup\CI4\blog-komerc\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Posts->readtxt()
+#2 C:\Users\Maciek\Desktop\corsup\CI4\blog-komerc\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Maciek\Desktop\corsup\CI4\blog-komerc\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Maciek\Desktop\corsup\CI4\blog-komerc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Maciek\Desktop\corsup\CI4\blog-komerc\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Maciek...')
+#6 {main}
+CRITICAL - 2022-05-25 16:11:21 --> Undefined variable: data
+#0 C:\Users\Maciek\Desktop\corsup\CI4\blog-komerc\app\Controllers\Posts.php(59): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Maciek\Desktop\corsup\CI4\blog-komerc\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Posts->readtxt()
+#2 C:\Users\Maciek\Desktop\corsup\CI4\blog-komerc\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Maciek\Desktop\corsup\CI4\blog-komerc\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Maciek\Desktop\corsup\CI4\blog-komerc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Maciek\Desktop\corsup\CI4\blog-komerc\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Maciek...')
+#6 {main}
+CRITICAL - 2022-05-25 16:13:40 --> Undefined variable: data
+#0 C:\Users\Maciek\Desktop\corsup\CI4\blog-komerc\app\Controllers\Posts.php(59): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Maciek\Desktop\corsup\CI4\blog-komerc\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Posts->readtxt()
+#2 C:\Users\Maciek\Desktop\corsup\CI4\blog-komerc\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Maciek\Desktop\corsup\CI4\blog-komerc\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Maciek\Desktop\corsup\CI4\blog-komerc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Maciek\Desktop\corsup\CI4\blog-komerc\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Maciek...')
+#6 {main}
+CRITICAL - 2022-05-25 16:19:54 --> syntax error, unexpected 'fread' (T_STRING)
+#0 C:\Users\Maciek\Desktop\corsup\CI4\blog-komerc\vendor\codeigniter4\framework\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 C:\Users\Maciek\Desktop\corsup\CI4\blog-komerc\vendor\codeigniter4\framework\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle()
+#2 C:\Users\Maciek\Desktop\corsup\CI4\blog-komerc\vendor\codeigniter4\framework\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 C:\Users\Maciek\Desktop\corsup\CI4\blog-komerc\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Maciek\Desktop\corsup\CI4\blog-komerc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Maciek\Desktop\corsup\CI4\blog-komerc\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Maciek...')
+#6 {main}
+CRITICAL - 2022-05-25 16:21:41 --> Undefined variable: echo
+#0 C:\Users\Maciek\Desktop\corsup\CI4\blog-komerc\app\Controllers\Posts.php(63): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Maciek\Desktop\corsup\CI4\blog-komerc\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Posts->readtxt()
+#2 C:\Users\Maciek\Desktop\corsup\CI4\blog-komerc\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 C:\Users\Maciek\Desktop\corsup\CI4\blog-komerc\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 C:\Users\Maciek\Desktop\corsup\CI4\blog-komerc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\Maciek\Desktop\corsup\CI4\blog-komerc\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Maciek...')
+#6 {main}
+CRITICAL - 2022-05-25 16:21:56 --> Undefined variable: echo
+#0 C:\Users\Maciek\Desktop\corsup\CI4\blog-komerc\app\Views\posts\042-read-from-txt.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Maciek\Desktop\corsup\CI4\blog-komerc\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\Maciek...')
+#2 C:\Users\Maciek\Desktop\corsup\CI4\blog-komerc\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Maciek\Desktop\corsup\CI4\blog-komerc\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\Users\Maciek\Desktop\corsup\CI4\blog-komerc\app\Controllers\Posts.php(66): view()
+#5 C:\Users\Maciek\Desktop\corsup\CI4\blog-komerc\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Posts->readtxt()
+#6 C:\Users\Maciek\Desktop\corsup\CI4\blog-komerc\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\Maciek\Desktop\corsup\CI4\blog-komerc\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\Maciek\Desktop\corsup\CI4\blog-komerc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Maciek\Desktop\corsup\CI4\blog-komerc\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Maciek...')
+#10 {main}
+CRITICAL - 2022-05-25 16:22:19 --> Undefined variable: size
+#0 C:\Users\Maciek\Desktop\corsup\CI4\blog-komerc\app\Views\posts\042-read-from-txt.php(5): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 C:\Users\Maciek\Desktop\corsup\CI4\blog-komerc\vendor\codeigniter4\framework\system\View\View.php(210): include('C:\\Users\\Maciek...')
+#2 C:\Users\Maciek\Desktop\corsup\CI4\blog-komerc\vendor\codeigniter4\framework\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\Maciek\Desktop\corsup\CI4\blog-komerc\vendor\codeigniter4\framework\system\Common.php(1089): CodeIgniter\View\View->render()
+#4 C:\Users\Maciek\Desktop\corsup\CI4\blog-komerc\app\Controllers\Posts.php(66): view()
+#5 C:\Users\Maciek\Desktop\corsup\CI4\blog-komerc\vendor\codeigniter4\framework\system\CodeIgniter.php(832): App\Controllers\Posts->readtxt()
+#6 C:\Users\Maciek\Desktop\corsup\CI4\blog-komerc\vendor\codeigniter4\framework\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 C:\Users\Maciek\Desktop\corsup\CI4\blog-komerc\vendor\codeigniter4\framework\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 C:\Users\Maciek\Desktop\corsup\CI4\blog-komerc\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\Maciek\Desktop\corsup\CI4\blog-komerc\vendor\codeigniter4\framework\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\Maciek...')
+#10 {main}

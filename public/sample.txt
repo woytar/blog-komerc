@@ -1,0 +1,2 @@
+Pierwsza linia: XYZ
+Druga linia: MWJ 25052022

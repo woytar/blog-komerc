@@ -1,6 +1,6 @@
 <h1><?= esc($title) ?></h1>
 
-<b>Czytanie zmiennych z pliku</b></br>
+
 
 Funkcjonalności:</br>
 <a class="w3-text-blue" href ="<?= base_url(); ?>/posts/read">Pokaż załadowane JPGi</a></br>

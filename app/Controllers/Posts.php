@@ -53,4 +53,17 @@ class Posts extends BaseController
 		echo view('posts/041-read-from-env', $data);
 		echo view('templates/footer');
 	}
+		public function readtxt() {
+		$title = "Zmienne odczytane z .txt";
+		$myfile = fopen("sample.txt", "r") or die("Unable to open file!");
+		$txtcontent = fread($myfile,filesize("sample.txt"));
+		fclose($myfile);
+		$data = [
+			'title' => $title,
+			'txtcontent' => $txtcontent,
+		];
+		echo view('templates/header');
+		echo view('posts/042-read-from-txt', $data);
+		echo view('templates/footer');
+	}
 }
